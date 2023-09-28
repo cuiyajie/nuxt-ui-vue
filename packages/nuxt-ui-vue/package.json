@@ -1,6 +1,6 @@
 {
   "name": "@cuiyajie/nuxt-ui-vue",
-  "version": "1.0.2-beta.1",
+  "version": "1.0.2-beta.2",
   "private": false,
   "exports": {
     ".": {
