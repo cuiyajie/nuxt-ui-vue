@@ -11,7 +11,7 @@ Below are the current versions of both libraries:
 
 | nuxt-ui          | nuxt-ui-vue      |
 |------------------|------------------|
-| v2.8.1           | v1.0.1-beta.6    |
+| v2.8.1           | v1.0.1-beta.9    |
 
 ## Features
 
@@ -396,11 +396,13 @@ const toast = useToast()
 </script>
 
 <template>
-    <UButton label="Show toast" @click="toast.add({
-        title: 'Update downloaded.',
-        description: 'It will be installed on restart. Restart now?',
-        icon: 'octicon:desktop-download-24',
-    })" />
+  <UButton
+    label="Show toast" @click="toast.add({
+      title: 'Update downloaded.',
+      description: 'It will be installed on restart. Restart now?',
+      icon: 'octicon:desktop-download-24',
+    })"
+  />
 </template>
 ```
 
