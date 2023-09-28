@@ -9,8 +9,8 @@
       "import": "./dist/nuxt-ui-vue.mjs"
     },
     "./dist/theme/nuxtlabsTheme": {
-      "require": "./dist/theme/nuxtlabsTheme.ts",
-      "import": "./dist/theme/nuxtlabsTheme.ts"
+      "require": "./dist/theme/nuxtlabsTheme.js",
+      "import": "./dist/theme/nuxtlabsTheme.js"
     }
   },
   "main": "./dist/nuxt-ui-vue.cjs",
